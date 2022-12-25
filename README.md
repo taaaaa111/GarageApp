@@ -22,5 +22,7 @@ GET = data recuperation / POST = add data / PUT = modify data / DELETE = delete 
     Also use of data persistence with the data base SQL.
 
 ##The Front-end
-    Use of API REST
+    Use of API REST 
     User interface :  data layout and implement CRUD method via form ( user can create, read, update and delete a car)
+
+

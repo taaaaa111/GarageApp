@@ -16,12 +16,12 @@ Update : update car's list, with a new shade of car.
 Delete : delete a car, when the car is not available anymore.
 
 
-##The Back-end
+**The Back-end
     Create an API REST using 4 methode HTTP : 
 GET = data recuperation / POST = add data / PUT = modify data / DELETE = delete data,
     Also use of data persistence with the data base SQL.
 
-##The Front-end
+**The Front-end
     Use of API REST 
     User interface :  data layout and implement CRUD method via form ( user can create, read, update and delete a car)
 

@@ -2,14 +2,13 @@ package com.example.garageApp.model;
 
 public class Car {
 
-    enum Color{
-        red,
-        blue,
-        yellow,
-        white,
+    public enum Color {
         black,
-        grey
-
+        blue,
+        grey,
+        red,
+        white,
+        yellow,
     }
 
     private long id;
@@ -26,7 +25,7 @@ public class Car {
         this.id = id;
         this.model = model;
         this.brand = brand;
-        year = year;
+        this.year = year;
         this.color = color;
     }
     public void setId(long id) {
@@ -50,11 +49,11 @@ public class Car {
     }
 
     public int getYear() {
-        return Year;
+        return year;
     }
 
     public void setYear(int year) {
-        Year = year;
+        this.year = year;
     }
 
     public Color getColor() {
